@@ -1,22 +1,25 @@
 {
   "name": "spike-directus",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Spike plugin for integrating Directus CMS with a static site",
+  "bugs": "https://github.com/hypebeast/spike-directus/issues",
   "main": "lib",
   "scripts": {
     "test": "standard --verbose | snazzy && ava",
     "coverage": "nyc ava",
     "coveralls": "nyc --reporter=lcov ava && cat ./coverage/lcov.info | coveralls"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "spike",
+    "spikeplugin",
+    "directus"
+  ],
+  "author": "Sebastian Ruml",
+  "license": "MIT",
   "dependencies": {
     "directus-sdk-javascript": "^2.9.0",
     "es6bindall": "0.0.9",
     "joi": "^13.1.2",
-    "reshape": "^0.4.2",
-    "reshape-loader": "^1.1.0",
     "spike-util": "^1.3.0",
     "when": "^3.7.8"
   },
