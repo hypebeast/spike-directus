@@ -16,6 +16,7 @@
   ],
   "author": "Sebastian Ruml",
   "license": "MIT",
+  "repository": "github:hypebeast/spike-directus",
   "dependencies": {
     "directus-sdk-javascript": "^2.9.0",
     "es6bindall": "0.0.9",
