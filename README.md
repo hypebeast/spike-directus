@@ -1,5 +1,7 @@
 # spike-directus
 
+[![Build Status](https://travis-ci.org/hypebeast/spike-directus.svg?branch=master)](https://travis-ci.org/hypebeast/spike-directus)
+
 Spike plugin for integrating Directus CMS with a static site.
 
 > **NOTE**: This plugin is in a early development. Use it on your own risk.
